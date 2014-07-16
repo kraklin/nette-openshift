@@ -22,8 +22,6 @@ That's it, you can now checkout your application at:
 
     http://nette-$yournamespace.rhcloud.com
 
-Notes
-=====
 
 Nette directories mapping
 -------------------
