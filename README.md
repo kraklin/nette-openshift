@@ -30,7 +30,7 @@ Nette directories mapping
 
 Nette directories has been moved to directory structure used by OpenShift as follows:
     
-		app -> misc
+    app -> misc
     vendor -> libs
     temp -> $_ENV['OPENSHIFT_TMP_DIR']
     log -> $_ENV['OPENSHIFT_LOG_DIR']
