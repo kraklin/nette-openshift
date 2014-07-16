@@ -23,12 +23,10 @@ That's it, you can now checkout your application at:
     http://nette-$yournamespace.rhcloud.com
 
 
-Nette directories mapping
+Nette log and temp directories
 -------------------
 
-Nette directories has been moved to directory structure used by OpenShift as follows:
-    
-    app -> misc
-    vendor -> libs
+Nette log and temp directories can be found in Openshift app-root directory.
+
     temp -> $_ENV['OPENSHIFT_TMP_DIR']
     log -> $_ENV['OPENSHIFT_LOG_DIR']
