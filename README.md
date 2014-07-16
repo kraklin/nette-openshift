@@ -12,9 +12,9 @@ Nette Framework speaks your language and helps you to easily build better websit
 Running on OpenShift
 ----------------------------
 
-Create an account at https://www.openshift.com and install the client tools (run 'rhc setup' first)
+Create an account at https://www.openshift.com and install the client tools (run 'rhc setup' first) or use web managment UI
 
-Create a php-5.4 application (you can call your application whatever you want)
+Create a php-5.4 application (you can call your application whatever you want) and use this repo URL to create new application.
 
     rhc app create nette php-5.4 --from-code=https://github.com/kraklin/nette-openshift
 
