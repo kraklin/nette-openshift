@@ -4,7 +4,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $configurator = new Nette\Configurator;
 
-//$configurator->setDebugMode(TRUE);  // debug mode MUST NOT be enabled on production server
+//$configurator->setDebugMode('10.10.10.10');  // enable for your IP
 $configurator->enableDebugger($_ENV['OPENSHIFT_LOG_DIR']);
 
 $configurator->setTempDirectory($_ENV['OPENSHIFT_TMP_DIR']);
