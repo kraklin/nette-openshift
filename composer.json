@@ -1,6 +1,6 @@
 {
-	"name": "nette/sandbox",
-	"description": "The sandbox is a pre-packaged Nette Framework project, basic configured structure for your application.",
+	"name": "kraklin/netteopenshift",
+	"description": "Edited Nette sandbox to be simply used on Openshift platform.",
 	"homepage": "http://nette.org",
 	"type": "project",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
@@ -11,7 +11,7 @@
 		},
 		{
 			"name": "Nette Community",
-			"homepage": "http://nette.org/contributors"
+			"homepage": "https://github.com/nette/nette/contributors"
 		}
 	],
 	"require": {
